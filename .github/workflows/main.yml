@@ -41,9 +41,11 @@ jobs:
       # Executar os testes usando o cucumber
       - run: npm run cy:run
       
-      # Gerar o relatorio
+      # Relatorio
       - run: npm run report:merge
-             npm run report:mocha
+      # Relatorio
+      - run: npm run report:mocha
+             
       
       # Publicar relatorio em html
       - name: Deploy to GitHub Pages
