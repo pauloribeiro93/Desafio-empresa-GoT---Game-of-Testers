@@ -5,7 +5,7 @@
 
 ### 🛠️ Ferramentas Utilizadas
 
-Visual Studio Code 1.54 
+- Visual Studio Code 1.54 
 - Cypress 7.6
 - Cmder 1.3
 
