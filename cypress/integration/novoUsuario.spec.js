@@ -54,6 +54,7 @@ describe('Fluxo de Cadastro para um novo usuário', () => {
         cy.get('#submitAccount').click()
 
         cy.url().should('contain', 'my-account')
+        cy.get('.logout').should('exist')
         cy.get('.info-account').should('contain', 'Welcome to your account')
     });
 });
