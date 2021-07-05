@@ -1,4 +1,4 @@
-# Desafio Empresa GOT Game-Of-Testers
+# :zap: Desafio Empresa GOT Game-Of-Testers
 
 
 <img src="https://github.com/pauloribeiro93/Desafio-empresa-GoT---Game-of-Testers/blob/master/img-readme/QAGOT.gif"/>
