@@ -9,7 +9,7 @@
 - Cypress 7.6
 - Cmder 1.3
 
-### :package: Package 
+### :package: Packages 
 
 - chance: "^1.1.7",
 - cypress: "^7.6.0",
@@ -41,7 +41,7 @@ git clone https://github.com/pauloribeiro93/Desafio-empresa-GoT---Game-of-Tester
 npm i
 ```
 
-##### :memo: Fluxo do cenário de "Cadastrar um novo usuário"::
+##### :memo: Fluxo do cenário de "Cadastrar um novo usuário":
 
 - Acessar o site automation practice http://automationpractice.com
 
@@ -58,11 +58,6 @@ npm i
 - Validar que foi redirecionado para a url correta
 
 - Validar exibição do texto 'Welcome to your account'
-
-
-##### Validações aplicadas no retorno:
- 
-
 
 
 ## ⚙️ Executando os testes
