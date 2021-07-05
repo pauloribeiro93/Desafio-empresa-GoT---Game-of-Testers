@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2021-07-05T20:30:38.286Z",
-    "end": "2021-07-05T20:30:59.071Z",
-    "duration": 20785,
+    "start": "2021-07-05T20:39:39.069Z",
+    "end": "2021-07-05T20:39:58.664Z",
+    "duration": 19595,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "f03b7df9-0919-4b34-a126-682d638da3ba",
+      "uuid": "b471f254-0653-4435-adb2-6823464829f3",
       "title": "",
       "fullFile": "cypress/integration/novoUsuario.spec.js",
       "file": "cypress/integration/novoUsuario.spec.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "dd16ee5e-7633-4372-9d65-10018709cd0b",
+          "uuid": "f557939f-f19e-4538-832c-c3670a3b2a91",
           "title": "Fluxo de Cadastro para um novo usuário",
           "fullFile": "",
           "file": "",
@@ -38,7 +38,7 @@
               "title": "Cadastrar um novo usuário",
               "fullTitle": "Fluxo de Cadastro para um novo usuário Cadastrar um novo usuário",
               "timedOut": null,
-              "duration": 20696,
+              "duration": 19500,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "cy.get('a.login').click();\ncy.get('#email_create').type(chance.email({\n  domain: \"agilizei.com\"\n}));\ncy.get('#SubmitCreate').click();\ncy.wait('@index');\ncy.get('#id_gender1').check();\ncy.get('#firstname').type('@valor');\ncy.get('#customer_firstname').type(chance.first({\n  gender: \"male\"\n})).invoke('val').as('primeiroNome');\ncy.get('#lastname').type('@ultimoNome');\ncy.get('#customer_lastname').type(chance.last({\n  gender: \"male\"\n})).invoke('val').as('ultimoNome');\ncy.get('#passwd').type(chance.string({\n  length: 5,\n  casing: 'upper',\n  alpha: true,\n  numeric: true\n}), {\n  log: false\n});\ncy.get('select#days').select('18');\ncy.get('#months').select('2');\ncy.get('#years').select('1992');\ncy.get('#newsletter').check();\ncy.get('#optin').check();\ncy.get('#company').type(chance.company());\ncy.get('#address1').type(chance.address({\n  short_suffix: true\n}));\ncy.get('#address2').type(chance.address());\ncy.get('#city').type(chance.city());\ncy.get('#postcode').type(chance.zip());\ncy.get('select#id_country').select('21');\ncy.get('select#id_state').select('4');\ncy.get('#other').type(chance.sentence({\n  words: 5\n}));\ncy.get('#phone').type(chance.phone({\n  formatted: false,\n  country: 'us'\n}));\ncy.get('#phone_mobile').type(chance.phone({\n  country: 'us',\n  mobile: true\n}));\ncy.get('#alias').type('{selectAll}{backspace}').type(chance.email({\n  domain: \"bootcampt6.com\"\n}));\ncy.get('#submitAccount').click();\ncy.url().should('contain', 'my-account');\ncy.get('.logout').should('exist');\ncy.get('.info-account').should('contain', 'Welcome to your account');",
               "err": {},
-              "uuid": "875aeb84-7c0f-461a-a7ee-3bf07e71f575",
-              "parentUUID": "dd16ee5e-7633-4372-9d65-10018709cd0b",
+              "uuid": "4cc8f50d-84b0-4381-8f80-cf1135ff974e",
+              "parentUUID": "f557939f-f19e-4538-832c-c3670a3b2a91",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "875aeb84-7c0f-461a-a7ee-3bf07e71f575"
+            "4cc8f50d-84b0-4381-8f80-cf1135ff974e"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 20696,
+          "duration": 19500,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
