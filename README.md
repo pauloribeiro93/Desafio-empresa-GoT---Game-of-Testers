@@ -62,7 +62,7 @@ npm i
 
 ## ⚙️ Executando os testes
 
-##### Utilize o seguinte comando para executar todos os cenários de teste: 
+##### Utilize o seguinte comando para executar o cenário de teste: 
 
 ``````
 npm run cy:open
