@@ -1,0 +1,12 @@
+#Dependencias
+node_modules/
+
+#Relatrios Mocha
+mochawesome-report
+
+#Videos
+cypress/videos
+
+#Outros
+.DS_Store
+
