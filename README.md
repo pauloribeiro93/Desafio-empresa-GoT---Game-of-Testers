@@ -68,7 +68,7 @@ npm i
 npm run cy:open
 ``````
 
-##### Visualização no Teste:
+##### Visualização do Teste:
 
 <img src="https://github.com/pauloribeiro93/Desafio-empresa-GoT---Game-of-Testers/blob/master/img-readme/RunnGOT.gif"/>
 
